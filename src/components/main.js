@@ -12,8 +12,11 @@ const Main = () => {
                 </div>
             </div>
 
-            <div class='flex float-right mt-56 mr-64 w-half'>
-                <span class='text-indigo-900 text-base'>I enjoy creating things of significance to people's lives. My goal is bring dreams to life, whether it be through design, code, or other media.</span>
+            <div class='flex float-right mt-60 mr-64 w-half'>
+                <span class='text-indigo-900 text-base'>Everyone has a dream. Goals, aspirations, passions.</span>
+            </div>
+            <div class='flex float-right mt-10 mr-64 w-half'>
+                <span class='text-indigo-900 text-base'>Mine is to help bring yours to life. Let's create something great, together.</span>
             </div>
         </div>
     )
