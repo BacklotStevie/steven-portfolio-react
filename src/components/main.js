@@ -1,5 +1,7 @@
 import React from 'react';
 import backlot from '../images/backlot.png'
+import trigan from '../images/trigan.png'
+import teramana from '../images/teramana.png'
 
 const Main = () => {
     return (
@@ -28,11 +30,37 @@ const Main = () => {
             </div>
 
             <div class="bg-red-200 py-6 flex flex-col justify-center mx-auto sm:py-12">
-                <div class="">
-                    <h1 class='text-xl pb-4 text-indigo-900'>Inside the Backlot</h1>
-                    <div class="flex justify-between grid-cols-2 h-auto py-20 px-10 w-2/3 bg-indigo-900 space-y-5 mx-auto rounded-3xl shadow-xl hover:rotate-1 transition-transform">
+                <div class="h-auto py-10 px-10 w-2/3 bg-indigo-900 space-y-5 mx-auto rounded-xl shadow-xl hover:rotate-1 transition-transform">
+                    <div>
+                        <h1 class='text-center text-xl pb-10 text-white underline'><a href="http://insidebacklot.com">Inside the Backlot</a></h1>
+                    </div>
+                    <div class='flex justify-between grid-cols-2'>
                         <h2 class="cols-span-12 font-normal tracking-wide text-xl text-white lg:w-2/5">Inside the Backlot a film podcasting, blogging and social networking community. Created by myself and developed alongside Ariel Elazarov, Inside the Backlot is a full-stack web application created with React.js, Node.js and Bootstrap, with fully functional backend routing.</h2>
                         <img src={backlot} alt="..." class="cols-span-12 max-h-80 w-1/2 border-none mt-3 pl-5"></img>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-red-200 py-6 flex flex-col justify-center mx-auto sm:py-12">
+                <div class="h-auto py-10 px-10 w-2/3 bg-indigo-900 space-y-5 mx-auto rounded-xl shadow-xl hover:rotate-1 transition-transform">
+                    <div>
+                        <h1 class='text-center text-xl pb-10 text-white underline'><a href='http://https://triganvisuals.netlify.app/'>TRI-GAN Visuals</a></h1>
+                    </div>
+                    <div class='flex justify-between grid-cols-2'>
+                        <h2 class="cols-span-12 font-normal tracking-wide text-xl text-white lg:w-2/5">TRI-Gan Videos is a Miami-based videographer, editor and creative consultant. Their portfolio site was created using React.js, Gatsby.js and TailwindCSS.</h2>
+                        <img src={trigan} alt="..." class="cols-span-12 max-h-80 w-1/2 border-none mt-3 pl-5"></img>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-red-200 py-6 flex flex-col justify-center mx-auto sm:py-12">
+                <div class="h-auto py-10 px-10 w-2/3 bg-indigo-900 space-y-5 mx-auto rounded-xl shadow-xl hover:rotate-1 transition-transform">
+                    <div>
+                        <h1 class='text-center text-xl pb-10 text-white underline'><a href='https://toningwithteremanatequila.netlify.app/'>Toning With Teramana Tequila</a></h1>
+                    </div>
+                    <div class='flex justify-between grid-cols-2'>
+                        <h2 class="cols-span-12 font-normal tracking-wide text-xl text-white lg:w-2/5">One of my projects while at Ironhack, Toning With Teramana Tequila was a group React.js project inspired by Dwayne 'The Rock' Johnson's new brand of tequila, Teramana Tequila. This project was done in conjecture with a UX group, giving us real-world experience in working with a UX/UI team.</h2>
+                        <img src={teramana} alt="..." class="cols-span-12 max-h-80 w-1/2 border-none mt-3 pl-5"></img>
                     </div>
                 </div>
             </div>
