@@ -45,7 +45,7 @@ const Main = () => {
             <div class="bg-red-200 py-6 flex flex-col justify-center mx-auto sm:py-12">
                 <div class="h-auto py-10 px-10 w-2/3 bg-indigo-900 space-y-5 mx-auto rounded-xl shadow-xl hover:rotate-1 transition-transform">
                     <div>
-                        <h1 class='text-center text-xl pb-10 text-red-200 underline'><a href='http://https://triganvisuals.netlify.app/'>TRI-GAN Visuals</a></h1>
+                        <h1 class='text-center text-xl pb-10 text-red-200 underline'><a href='https://triganvisuals.netlify.app/'>TRI-GAN Visuals</a></h1>
                     </div>
                     <div class='flex justify-between grid-cols-2'>
                         <h2 class="cols-span-12 font-normal tracking-wide text-xl text-red-200 lg:w-2/5">TRI-Gan Videos is a Miami-based videographer, editor and creative consultant. Their portfolio site was created using React.js, Gatsby.js and TailwindCSS.</h2>
@@ -77,13 +77,6 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class='bg-indigo-900 '>
-            <div>
-                <h1 class='font-normal tracking-wide text-2xl text-red-200 lg:w-2/5 pt-64'>A Branding Consultant</h1>
-                <h2 class='font-normal tracking-wide text-2xl text-red-200 pt-20'>I am a web design, creative</h2>
-            </div>    
         </div>
     </>
     )

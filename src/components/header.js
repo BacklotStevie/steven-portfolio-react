@@ -8,10 +8,18 @@ const Header = ({ siteTitle }) => {
             <div class="text-lg text-indigo-900 pl-5 text-center">
               SS
             </div>
-            <div class="text-lg float-right text-indigo-900 pr-5 text-center">
-              About
-            </div>
-        </div>
+            <div>
+                <div class="text-lg float-right text-indigo-900 pr-5 pl-5 text-center"><a href="/about">
+                  About </a>
+                </div>
+                <div class="text-lg float-right text-indigo-900 pl-5 pr-5 text-center">
+                  Work
+                </div>
+                <div class="text-lg float-right text-indigo-900 pl-5 pr-5 text-center">
+                  Resume
+                </div>
+              </div>
+          </div>
       </nav>
       </>
     )
