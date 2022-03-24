@@ -4,28 +4,9 @@ import trigan from '../images/trigan.png'
 import teramana from '../images/teramana.png'
 import fdot from '../images/fdot.png'
 
-const Main = () => {
+const Work = () => {
     return (
-    <>
-        <div class='bg-red-200 h-screen'>
-            <div class='flex-col pt-14 float-left ml-80 mt-36'>
-                <div>
-                    <h1 class='text-indigo-900 text-6xl italic tracking-tight'>Your Brand's</h1>
-                </div>
-                <div>
-                    <h1 class='text-indigo-900 text-6xl italic tracking-tight'>Best Friend</h1>
-                </div>
-            </div>
-
-            <div class='flex float-right mt-72 mr-64 w-half'>
-                <span class='text-indigo-900 text-base'>Everyone has a dream. Goals, aspirations, passions.</span>
-            </div>
-            <div class='flex float-right mt-10 mr-64 w-half'>
-                <span class='text-indigo-900 text-base'>Mine is to help bring yours to life. Let's create something great, together.</span>
-            </div>
-        </div>
-
-        <div class='bg-red-200'>
+        <div class='bg-red-200 pt-20'>
             <div class='pt-25'>
                 <h1 class='text-indigo-900 text-6xl italic tracking-tight'>Featured Work</h1>
             </div>
@@ -78,8 +59,7 @@ const Main = () => {
                 </div>
             </div>
         </div>
-    </>
-    )
+    );
 }
 
-export default Main
+export default Work
