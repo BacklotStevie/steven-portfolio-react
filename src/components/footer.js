@@ -13,9 +13,6 @@ const Footer = ({  }) => {
             <li>
                 <a href="https://docs.google.com/document/d/1cOa3AEHMLL4jzGMNZ6LkonB92edaxRcw3Ra_LSKNNjs/edit?usp=sharing" class="mr-4 hover:underline md:mr-6">Resume</a>
             </li>
-            <li>
-                <a href="/src/components/contact.js" class="hover:underline">Contact</a>
-            </li>
         </ul>
         </footer>
      </>
